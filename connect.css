@@ -1,0 +1,39 @@
+.main{
+    background-color: skyblue;
+    padding:80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    text-align: center;
+}
+.nn{
+    background-color: white;
+    
+    width:190px;
+    background: url(bg-pattern-card.svg);
+    background-size: cover; 
+    img{
+       width: 100px;
+       border-radius: 1rem;
+       overflow: hidden;
+       float:bottom;
+    }
+}
+.ji{
+    background-color: white;
+    padding-bottom: 10px;
+    transform: translateY(-15%);
+}
+.last{
+        display: flex;
+        justify-content: center;
+          gap: 2rem;
+    }
+
+.l1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
